@@ -133,7 +133,4 @@ def main(dict):
         dict = {'text': 'an error occurred ' + str(res.status) + " " + res.read()}
         sendResponseToSlack(response_url, json.dumps(dict))
     print('all done!')
-    
-    
 
-### /wsk forecast apiKey 9644e071-e18d-4133-bfaf-2cc45d76c568:fdzQs8eXWp longitude 84.217 latitude 34.063
